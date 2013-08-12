@@ -3,7 +3,7 @@
 }
 .galery {
     border: 1px solid gray;
-    border-radius: 25px;
+    border-radius: 15px;
     margin-top: 10px;
 }
 .galery:hover {
@@ -13,8 +13,9 @@
     width: 100%;
 }
 .rs-detail {
-    margin: 120px 0 0 7px;
+    margin: 130px 0 0 7px;
     border-top: #cccccc 1px solid;
+    border-top-width:80 ;
     font-size: 12px;
 }
 .form-content {
@@ -85,3 +86,9 @@ background: url('../img/whitey.png');
 .captcha{
     width: 25%;
 }
+
+.view{
+    color: red;
+    font-size: 14px;
+}
+
