@@ -4,10 +4,10 @@
 .galery {
     position: relative;
     border: 1px solid gray;
-    /*border-radius: 15px;*/
+    border-radius: 5px;
     margin-top: 20px;
     padding: 5px;
-    box-shadow: 2 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 9 3px 9px rgba(0, 0, 0, 0.5);
 }
 .galery:hover {
     background-color: lightskyblue;
@@ -40,17 +40,11 @@ background: url('../img/whitey.png');
     height: 26px;
 }
 
-.innerlogo{
-    padding-top: 9px;
-}
-
-
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     max-width: 100%;
     max-height: 354px;
 }
 .view-form img{
-    position: relative;
     width: 100%;
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(17, 5, 5, 0.99);
@@ -60,7 +54,7 @@ background: url('../img/whitey.png');
     text-align: right;
 }
  .geomap{
-     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+     box-shadow: 1 3px 9px rgba(0, 0, 0, 0.5);
      border: 1px solid rgba(17, 5, 5, 0.99);
  }
 
@@ -77,27 +71,17 @@ background: url('../img/whitey.png');
     color: #555555;
     background-color: rgba(236, 236, 236, 0);
     color: #29a9df;
-    text-decoration: none;
     border-bottom: 2px solid #29a9df;
     width: auto;
 }
-
 
 hr{
     border-top: 1px solid rgba(41, 34, 34, 0.16);
 }
 
- .project-price-detail{
-     MARGIN-TOP: 35PX;
- }
-
- .main{
-     background-color:#eeeeee;
- }
-
 #mainNav{
     margin-bottom: 0px;
-    background-color: #eeeeee;
+    background-color: #ffffff;
 }
 
 .glyphicon{
@@ -120,13 +104,11 @@ li a{
 }
 .rs-detail {
     margin: 100px 0 0 7px;
-    /*border-top-width:80 ;*/
     font-size: 14px;
 }
 .narrow-container {
     color: rgb(209, 209, 209);
     margin-top: 46px;
-    /*margin-left:90px;*/
     max-width: 1000px;
     padding-top: 24px;
 }
@@ -149,4 +131,13 @@ li a{
 
 .main li a{
     color: white;
+}
+
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background: rgba(216, 73, 73, 0.69);
+}
+
+.footer a{
+    color: #ffffff;
 }
